@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OsmondagiBolalarAlgorithmProject", "OsmondagiBolalarAlgorithmProject\OsmondagiBolalarAlgorithmProject.csproj", "{B7179B1F-C387-4EA2-8AF7-400F2DF315B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{9A08B0C9-4550-457C-A548-0B97F1B79307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{9A08B0C9-4550-457C-A548-0B97F1B79307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dadaxon", "Dadaxon\Dadaxon.csproj", "{A32BD0F1-620F-4FF0-B93A-9BF41F1D074C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9A08B0C9-4550-457C-A548-0B97F1B79307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A08B0C9-4550-457C-A548-0B97F1B79307}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A08B0C9-4550-457C-A548-0B97F1B79307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32BD0F1-620F-4FF0-B93A-9BF41F1D074C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32BD0F1-620F-4FF0-B93A-9BF41F1D074C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32BD0F1-620F-4FF0-B93A-9BF41F1D074C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32BD0F1-620F-4FF0-B93A-9BF41F1D074C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
