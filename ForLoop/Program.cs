@@ -143,26 +143,26 @@
 //Console.WriteLine("Sum = " + (Sum + 1));
 
 //Console.WriteLine("_______________________________________________________________________");
-//for 22
-salom:
-Console.Write("n = "); double n = double.Parse(Console.ReadLine());
-Console.Write("x = "); double x = double.Parse(Console.ReadLine());
-double K = 1, S = 0, k1 = 1, ishora = -1;
-for (int i = 1; i <= (2 * n + 1); i+=2)
-{
-    K = 1;
-    for (int j = 1; j <= i; j++)
-    {
-        K = K * j;
-    }
+//for 23
+//salom:
+//Console.Write("n = "); double n = double.Parse(Console.ReadLine());
+//Console.Write("x = "); double x = double.Parse(Console.ReadLine());
+//double K = 1, S = 0, k1 = 1, ishora = -1;
+//for (int i = 1; i <= (2 * n + 1); i+=2)
+//{
+//    K = 1;
+//    for (int j = 1; j <= i; j++)
+//    {
+//        K = K * j;
+//    }
     
-    k1 *= x;
-    S += (ishora * k1) / K;
-    ishora *= -1;
+//    k1 *= x;
+//    S += (ishora * k1) / K;
+//    ishora *= -1;
     
 
-}
-Console.WriteLine("Sum = " + S);
+//}
+//Console.WriteLine("Sum = " + S);
 
-Console.WriteLine("===============================");
-goto salom;
+//Console.WriteLine("===============================");
+//goto salom;
