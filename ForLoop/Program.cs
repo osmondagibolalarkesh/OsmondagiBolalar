@@ -68,10 +68,101 @@
 //}
 //Console.WriteLine(S);
 //Console.WriteLine(count);
+//double k = 0;
+//Console.Write("N = "); double n = double.Parse(Console.ReadLine());
+//Console.Write("a = "); double a = double.Parse(Console.ReadLine());
+////Console.Write("a = "); int a = int.Parse(Console.ReadLine());
+//for (double i = n; i <= 2 * n ; i++)
+//{
+//    k += Math.Pow(i , 2);   
+//}
+//Console.WriteLine("S = " + k);
+//for- 9
+//double s = 0;
+//Console.Write("a = "); double a = double.Parse(Console.ReadLine());
+//Console.Write("b = "); double b = double.Parse(Console.ReadLine());
+//for (double i = a; i <= b; i++)
+//{
+//    s += Math.Pow(i, 2);
+//}
+//Console.WriteLine("S = " + s);
+//fot- 14
+//double yigindi = 0, s = 1.1, ishora = 1;
+//Console.Write("n = "); int n = int.Parse(Console.ReadLine());
+//for (int i = 1; i <= (2 * n - 1); i += 2)
+//{
+//    yigindi += i;
+//    Console.WriteLine(ishora+ " soni kvadrati " + yigindi);
+//    ishora += 1;
+//}
+//int i = 1;
+//for (;;)
+//{
+//    Console.Write(i + " ");
+//    i++;
+//}
+//int a = 0;
+//for (int i = 1; i <= 100; i++)
+//{
+//    a++;
+//    if ((1 <= a) && (a <= 33))
+//    {
+//        Console.BackgroundColor = ConsoleColor.Green;
+//        Console.WriteLine("Subxonolloh = " + a);
+//    }
 
-int i = 1;
-for (; ; )
+//    else if ((34 <= a) && (a <= 66))
+//    {
+//        Console.BackgroundColor = ConsoleColor.Blue;
+//        Console.WriteLine("Alhamdullilah = " + a);
+//    }
+
+//    else if ((67 <= a) && (a <= 99))
+//    {
+//        Console.BackgroundColor = ConsoleColor.Red;
+//        Console.WriteLine("Alloh Akbar = " + a);
+//    }
+//    else if (a == 100)
+//    {
+//        Console.BackgroundColor = ConsoleColor.White;
+//        Console.WriteLine("Laa ilaaha illoh Muhammadu  Rasulloh = " + a);
+//    }
+//}
+//for 18
+//double n, kupaytma = 1, a, ishora = -1, Sum = 0;
+//Console.Write("n = "); n = int.Parse(Console.ReadLine());
+//Console.Write("a = "); a = double.Parse(Console.ReadLine());
+//for (int i = 1; i <= n; i++)
+//{
+//    kupaytma = kupaytma * a;
+//    Sum += ishora * kupaytma;
+//    ishora *= -1;
+//    Console.WriteLine("daraja " + kupaytma);
+//}
+//Console.WriteLine("======================");
+//Console.WriteLine("Sum = " + (Sum + 1));
+
+//Console.WriteLine("_______________________________________________________________________");
+//for 22
+salom:
+Console.Write("n = "); double n = double.Parse(Console.ReadLine());
+Console.Write("x = "); double x = double.Parse(Console.ReadLine());
+double K = 1, S = 0, k1 = 1, ishora = -1;
+for (int i = 1; i <= (2 * n + 1); i+=2)
 {
-    Console.Write($"i = {i} ");
-    i++;
+    K = 1;
+    for (int j = 1; j <= i; j++)
+    {
+        K = K * j;
+    }
+    
+    k1 *= x;
+    S += (ishora * k1) / K;
+    ishora *= -1;
+    
+
 }
+Console.WriteLine("Sum = " + S);
+
+Console.WriteLine("===============================");
+goto salom;
