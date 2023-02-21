@@ -679,14 +679,14 @@
 //		break;
 //}
 
-for (int i = 0; i <= 10; i++)
-{
-	if (i % 2 == 1)
-	{
-		Console.WriteLine(i);
-	}
-    // multple code
-}
+//for (int i = 0; i <= 10; i++)
+//{
+//	if (i % 2 == 1)
+//	{
+//		Console.WriteLine(i);
+//	}
+//    // multple code
+//}
 //for (ifoda 1; ifoda 2; ifoda 3)
 //{
 //    // tana qismidagi cod

@@ -591,19 +591,20 @@
 //Console.WriteLine("=====================");
 //goto salom;
 //while 15
-//salom:
-//Console.Write("S = "); double S = double.Parse(Console.ReadLine());
-//Console.Write("p = "); double p = double.Parse(Console.ReadLine());
-//double oy = 0, l = 2 * S;
-//p = p / 100;
-//while (l < S )
-//{
-//    S *= p;
-//    oy++;
-   
-//    Console.WriteLine(oy + " oyda  Pulimiz " + p + " % ga oshgan  Sum = " + S);
-  
-//}
-//Console.WriteLine("OY = " + oy);
-//Console.WriteLine("=====================");
-//goto salom;
+salom:
+Console.Write("S = "); decimal S = decimal.Parse(Console.ReadLine());
+Console.Write("p = "); decimal p = decimal.Parse(Console.ReadLine());
+decimal oy = 0, l = 2 * S;
+//p = p /100;
+while (l >= S)
+{
+    S *= p/100;
+    oy++;
+
+    Console.WriteLine(oy + " oyda  Pulimiz " + p + " % ga oshgan  Sum = " + S);
+
+}
+Console.WriteLine("=====================");
+Console.WriteLine("OY = " + oy + "\nsum = " + S);
+Console.WriteLine("=====================");
+goto salom;
