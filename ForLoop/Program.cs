@@ -592,13 +592,13 @@
 //goto salom;
 //while 15
 salom:
-Console.Write("S = "); decimal S = decimal.Parse(Console.ReadLine());
-Console.Write("p = "); decimal p = decimal.Parse(Console.ReadLine());
+Console.Write("S = "); decimal S = Convert.ToDecimal(Console.ReadLine());
+Console.Write("p = "); decimal p = Convert.ToDecimal(Console.ReadLine());
 decimal oy = 0, l = 2 * S;
 //p = p /100;
-while (l >= S)
+while (l > S)
 {
-    S *= p/100;
+    S += S * p/100;
     oy++;
 
     Console.WriteLine(oy + " oyda  Pulimiz " + p + " % ga oshgan  Sum = " + S);
