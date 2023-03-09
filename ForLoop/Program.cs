@@ -590,21 +590,99 @@
 //Console.WriteLine("k = " + k);
 //Console.WriteLine("=====================");
 //goto salom;
-//while 15
-salom:
-Console.Write("S = "); decimal S = Convert.ToDecimal(Console.ReadLine());
-Console.Write("p = "); decimal p = Convert.ToDecimal(Console.ReadLine());
-decimal oy = 0, l = 2 * S;
-//p = p /100;
-while (l > S)
-{
-    S += S * p/100;
-    oy++;
+//while 16
+//salom:
+////Console.Write("S = "); decimal S = Convert.ToDecimal(Console.ReadLine());
+//Console.Write("p = "); decimal p = Convert.ToDecimal(Console.ReadLine());
+//decimal kun = 0, masofa = 10;
+////p = p /100;
+//while (200 > masofa)
+//{
+//    masofa += masofa * (p / 100);
+//    kun++;
+//    Console.WriteLine(kun + " kunda  " + p + " % ga oshgan masofasi " + masofa);
 
-    Console.WriteLine(oy + " oyda  Pulimiz " + p + " % ga oshgan  Sum = " + S);
+//}
+//Console.WriteLine("=====================");
+//Console.WriteLine("kun = " + kun + "\numumiy masofa = " + masofa);
+//Console.WriteLine("=====================");
+//while 17
+//goto salom;
+//salom:
+////Console.Write("S = "); decimal S = Convert.ToDecimal(Console.ReadLine());
+//Console.Write("p = "); decimal p = Convert.ToDecimal(Console.ReadLine());
+//decimal kun = 0, masofa = 10;
+////p = p /100;
+//while (200 > masofa)
+//{
+//    masofa += masofa * (p / 100);
+//    kun++;
+//    Console.WriteLine(kun + " kunda  " + p + " % ga oshgan masofasi " + masofa);
 
-}
-Console.WriteLine("=====================");
-Console.WriteLine("OY = " + oy + "\nsum = " + S);
-Console.WriteLine("=====================");
-goto salom;
+//}
+//goto salom;
+//while 18
+//goto salom;
+//salom:
+////Console.Write("S = "); decimal S = Convert.ToDecimal(Console.ReadLine());
+//Console.Write("n = "); int n = Convert.ToInt32(Console.ReadLine());
+//int k = 0;
+//while (n > 0)
+//{
+//    k = n % 10;
+//    n = n / 10;
+//    Console.Write(k + "");
+
+//}
+//Console.WriteLine();
+//Console.WriteLine("=====================");
+//goto salom;
+//goto salom;
+//while 20
+//salom:
+////Console.Write("S = "); decimal S = Convert.ToDecimal(Console.ReadLine());
+//Console.Write("n = "); int n = Convert.ToInt32(Console.ReadLine());
+//int k = 0;
+//bool tekshirish = true;
+//while (n > 0)
+//{
+//    k = n % 10;
+//    n = n / 10;
+//    if (k == 2)
+//    {
+//        tekshirish= false;
+//        Console.WriteLine("2 soni bor"); break;
+//    }
+
+//}
+//if (tekshirish != false)
+//{
+//    Console.WriteLine("2 soni yuq");
+//}
+//goto salom;
+//while 22
+
+//salom:
+////Console.Write("S = "); decimal S = Convert.ToDecimal(Console.ReadLine());
+//Console.Write("n = "); int n = Convert.ToInt32(Console.ReadLine());
+//bool g = true;
+//int j = 2;
+//while (n > j)
+//{
+
+//	if (n % j == 0)
+//	{
+//		g = false; 
+//	}
+//	j++;
+//}
+//if (g == true)
+//{
+//	Console.WriteLine("tub son");
+//}
+//else
+//{
+//	Console.WriteLine("tub son emas");
+//}
+//goto salom;
+
